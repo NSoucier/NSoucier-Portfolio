@@ -8,54 +8,64 @@
 .footer {
     position: relative;
     bottom: 0;
-    /* display: flex; */
-    /* -ms-flex-align: center; */
-    /* text-align: center; */
 }
 
 /* Projects section */
 
+.headshot {
+    width: 350px;
+}
+
 p {
+    color: white;
+    margin: 50px 150px;
+}
+
+.project {
     color: white;
 }
 
-mat-grid-tile {
-    background-color: cyan;
+.description {
+    float: left;
+    margin: 120px 100px;
 }
 
+.video {
+    float: right;
+    margin: 120px 50px;
+}
+
+
+
 .color-blur {
-    transform-origin: center center;
+    /* transform-origin: center center; */
     background-image: linear-gradient(to right top,#6c22bd,#8b25bb,#a52bb9,#bc34b7,#d040b5,#e645a5,#f55195,#ff6188,#ff796e,#ff965b,#f5b255,#e1cd60);
-    position: absolute;
-    left: 70%;
+    position:;
     border-radius: 20px;
-    transform: skewY(-10deg) scale(.7) translateZ(0);
+    transform: skewY(-8deg) scale(.8) translateZ(0);
 
     width: 900px;
-    height: 500px;
+    height: 225px;
     filter: blur(100px);
     opacity: .6;
-    top: 200px;
-    transition: filter .25s ease-in-out, opacity .25s ease-in-out
+    top: 390px;
+    transition: filter .95s ease-in-out, opacity .45s ease-in-out;
 }
 
 .color-blur:hover {
-    transform-origin: center center;
+    /* transform-origin: center center; */
     background-image: linear-gradient(to right top,#6c22bd,#8b25bb,#a52bb9,#bc34b7,#d040b5,#e645a5,#f55195,#ff6188,#ff796e,#ff965b,#f5b255,#e1cd60);
     position: absolute;
-    left: 70%;
     border-radius: 20px;
-    transform: skewY(-10deg) scale(.7) translateZ(0);
+    transform: skewY(-8deg) scale(.8) translateZ(0);
 
     width: 900px;
-    height: 500px;
+    height: 225px;
     filter: blur(100px);
-    opacity: .9;
-    top: 200px;
-    transition: filter .25s ease-in-out, opacity .25s ease-in-out
+    opacity: .8;
+    top: 390px;
+    transition: filter .95s ease-in-out, opacity .45s ease-in-out;
 }
-
-
 
 /* Old stuff */
 :host {

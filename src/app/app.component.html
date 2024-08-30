@@ -1,16 +1,32 @@
 
-<mat-toolbar class="navbar">Nathan Soucier</mat-toolbar>
+<!-- <mat-toolbar class="navbar">Nathan Soucier - Software Engineer</mat-toolbar> -->
+<app-navbar></app-navbar>
+
 <div class="intro">
-  <p>Here's my bio</p>
+  <p>insert headshot</p>
+  <img class="headshot" src="../assets/img/headshot.jpg">
+  <p>I am an experienced software developer with a focus on full-stack development and a passion for delivering end-to-end solutions. 
+    Leveraging a solid engineering background with hands-on experience in electrical and biomedical engineering, I bring a unique 
+    perspective to software development, blending technical proficiency with practical insights.
+    <br>
+    Over several years in the industry, coupled with dedicated coursework and diverse projects, I've honed my skills across a wide range
+    of technologies, including Javascript, Python, CSS, HTML, React, Node.js, Express.js, SQL, JQuery, C++, Assembly, and Java. With 
+    expertise in both front-end and back-end technologies, I thrive in dynamic environments where innovation and collaboration are 
+    paramount.
+    <br>
+    Beyond the world of software, I enjoy an active lifestyle, whether catching waves along the local coastline, competing on the 
+    pickleball court, or kicking a soccer ball around. Recently, I've embarked on a journey to learn Spanish, further enriching my 
+    personal and professional horizons.
+    <br>
+    Technical skills: JavaScript, SQL, ReactJS, Nodejs, Expressjs, Redux, jQuery, CSS/HTML, C/C++, Python, Java, GitHub Assembly, 
+    Jira, MATLAB, Git, Agile, SolidWorks, CRM
+  </p>
 </div>
-<div class="projects">
-  <p>Recent projects:</p>
-  <mat-grid-list cols="3" rowHeight="200" gutterSize="50">
-    <mat-grid-tile colspan="2" class="color-blur">Project 1 description, tech stack and URL</mat-grid-tile>
-    <mat-grid-tile>Loom video of project 1</mat-grid-tile>
-    <mat-grid-tile>Loom video of project 2</mat-grid-tile>
-    <mat-grid-tile colspan="2" class="color-blur">Project 2 description, tech stack and URL</mat-grid-tile>
-  </mat-grid-list>
+
+<div class="project">
+  <div class="description">description of project 1</div>
+  <div class="color-blur"></div>
+  <div class="video">video goes here</div>
 </div>
 
 <main class="main">
@@ -70,7 +86,13 @@
 
   </div>
 </main>
+<div class="container">
+  <!-- Bio -->
+  <!-- Projects -->
+  <!-- Contact -->
+  <router-outlet />
+</div>
 
-<mat-toolbar class="footer">Thank you for visiting!</mat-toolbar>
 
-<router-outlet />
+<!-- <mat-toolbar class="footer">Thank you for visiting!</mat-toolbar> -->
+
